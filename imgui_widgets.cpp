@@ -1463,7 +1463,7 @@ void ImGui::SeparatorEx(ImGuiSeparatorFlags flags, float thickness)
         ImGuiOldColumns* columns = (flags & ImGuiSeparatorFlags_SpanAllColumns) ? window->DC.CurrentColumns : NULL;
         if (columns)
         {
-            x1 = window->Pos.x + window->DC.Indent.x; // Used to be Pos.x before 2023/10/03
+            x1 = window->Pos.x + window->DC.Indent.x; // Used to be m_CameraPosition.x before 2023/10/03
             x2 = window->Pos.x + window->Size.x;
             PushColumnsBackground();
         }
