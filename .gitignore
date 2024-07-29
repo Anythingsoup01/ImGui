@@ -58,3 +58,7 @@ examples/example_sdl2_metal/example_sdl2_metal
 examples/example_sdl2_opengl2/example_sdl2_opengl2
 examples/example_sdl2_opengl3/example_sdl2_opengl3
 examples/example_sdl2_sdlrenderer/example_sdl2_sdlrenderer
+/bin-int/Dist-windows-x86_64/ImGui/ImGui.vcxproj.FileListAbsolute.txt
+/bin-int/Release-windows-x86_64/ImGui/ImGui.vcxproj.FileListAbsolute.txt
+/bin/Debug-windows-x86_64/ImGui/ImGui.idb
+/bin/Debug-windows-x86_64/ImGui/ImGui.lib
