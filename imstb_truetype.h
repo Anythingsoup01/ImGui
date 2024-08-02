@@ -6,14 +6,14 @@
 // stb_truetype.h - v1.26 - public domain
 // authored from 2009-2021 by Sean Barrett / RAD Game Tools
 //
-// =======================================================================
+// =
 //
 //    NO SECURITY GUARANTEE -- DO NOT USE THIS ON UNTRUSTED FONT FILES
 //
 // This library does no range checking of the offsets found in the file,
 // meaning an attacker can use it to read arbitrary memory.
 //
-// =======================================================================
+// =
 //
 //   This library processes TrueType files:
 //        parse files

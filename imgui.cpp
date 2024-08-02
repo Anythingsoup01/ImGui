@@ -106,7 +106,7 @@ CODE
 /*
 
  MISSION STATEMENT
- =================
+ ===
 
  - Easy to use to create code-driven and data-driven tools.
  - Easy to use to create ad hoc short-lived tools and long-lived, more elaborate tools.
@@ -125,7 +125,7 @@ CODE
 
 
  CONTROLS GUIDE
- ==============
+ 
 
  - MOUSE CONTROLS
    - Mouse wheel:                   Scroll vertically.
@@ -194,7 +194,7 @@ CODE
 
 
  PROGRAMMER GUIDE
- ================
+ ==
 
  READ FIRST
  ----------
@@ -424,7 +424,7 @@ CODE
 
 
  API BREAKING CHANGES
- ====================
+ ======
 
  Occasionally introducing changes that are breaking the API. We try to make the breakage minor and easy to fix.
  Below is a change-log of API breaking changes only. If you are using one of the functions listed, expect to have to fix some code.
@@ -870,7 +870,7 @@ CODE
 
 
  FREQUENTLY ASKED QUESTIONS (FAQ)
- ================================
+ ====
 
  Read all answers online:
    https://www.dearimgui.com/faq or https://github.com/ocornut/imgui/blob/master/docs/FAQ.md (same url)
@@ -879,7 +879,7 @@ CODE
  Some answers are copied down here to facilitate searching in code.
 
  Q&A: Basics
- ===========
+ ====
 
  Q: Where is the documentation?
  A: This library is poorly documented at the moment and expects the user to be acquainted with C/C++.
@@ -901,7 +901,7 @@ CODE
  >> See https://www.dearimgui.com/faq for details.
 
  Q&A: Integration
- ================
+ ==
 
  Q: How to get started?
  A: Read https://github.com/ocornut/imgui/wiki/Getting-Started. Read 'PROGRAMMER GUIDE' above. Read examples/README.txt.
@@ -932,7 +932,7 @@ CODE
  >> See https://www.dearimgui.com/faq
 
  Q&A: Fonts, Text
- ================
+ ==
 
  Q: How should I handle DPI in my application?
  Q: How can I load a different font than the default?
@@ -942,7 +942,7 @@ CODE
  >> See https://www.dearimgui.com/faq and https://github.com/ocornut/imgui/blob/master/docs/FONTS.md
 
  Q&A: Concerns
- =============
+ ======
 
  Q: Who uses Dear ImGui?
  Q: Can you create elaborate/serious tools with Dear ImGui?
@@ -951,7 +951,7 @@ CODE
  >> See https://www.dearimgui.com/faq
 
  Q&A: Community
- ==============
+ 
 
  Q: How can I help?
  A: - Businesses: please reach out to "omar AT dearimgui DOT com" if you work in a place using Dear ImGui!
