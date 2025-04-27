@@ -1,5 +1,3 @@
-workspace "ImGui-Prebuild"
-
 project "ImGui"
 	kind "StaticLib"
 	language "C++"
