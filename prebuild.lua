@@ -17,8 +17,3 @@ project "ImGui"
 		"imstb_truetype.h",
 		"imgui_demo.cpp"
 	}
-
-	includedirs
-	{
-        "$(ROOTDIR)/vendor/glad/include"
-    }

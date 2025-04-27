@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.30)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+project(ImGui-Prebuild LANGUAGES CXX)
 set(SRCS
     imconfig.h
     imgui.h
@@ -13,8 +16,4 @@ set(SRCS
 )
 add_library(ImGui STATIC ${SRCS})
 set_property(TARGET ImGui PROPERTY CXX_STANDARD 17)
-
-target_include_directories(ImGui PRIVATE
-    ${CMAKE_SOURCE_DIR}/vendor/glad/include
-)
 
