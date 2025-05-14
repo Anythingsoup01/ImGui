@@ -1127,6 +1127,7 @@ struct IMGUI_API ImGuiInputTextState
     void        ReloadUserBufAndSelectAll()     { ReloadUserBuf = true; ReloadSelectionStart = 0; ReloadSelectionEnd = INT_MAX; }
     void        ReloadUserBufAndKeepSelection() { ReloadUserBuf = true; ReloadSelectionStart = Stb.select_start; ReloadSelectionEnd = Stb.select_end; }
     void        ReloadUserBufAndMoveToEnd()     { ReloadUserBuf = true; ReloadSelectionStart = ReloadSelectionEnd = INT_MAX; }
+    void        ReloadUserBufAndKeepPosition()  { ReloadUserBuf = true; ReloadSelectionStart = ReloadSelectionEnd = GetCursorPos(); }
 
 };
 
