@@ -1,9 +1,11 @@
-project "ImGui"
-	kind "StaticLib"
-	language "C++"
-    dialect "17"
+Project =
+{
+    name = "ImGui",
+	kind = "StaticLib",
+	language = "C++",
+    dialect = "17",
 
-	files
+	files =
 	{
 		"imconfig.h",
 		"imgui.h",
@@ -16,4 +18,5 @@ project "ImGui"
 		"imstb_textedit.h",
 		"imstb_truetype.h",
 		"imgui_demo.cpp"
-	}
+	},
+}
